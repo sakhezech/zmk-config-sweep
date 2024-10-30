@@ -1,0 +1,177 @@
+layout: {qmk_keyboard: ferris_rotated}
+layers:
+  base:
+  - Q
+  - {t: W, h: '{'}
+  - {t: E, h: '['}
+  - {t: R, h: (}
+  - {t: T, h: '@'}
+  - {t: Y, h: '~'}
+  - {t: U, h: )}
+  - {t: I, h: ']'}
+  - {t: O, h: '}'}
+  - {t: P, h: '|'}
+  - {t: A, h: num}
+  - {t: S, h: LGUI}
+  - {t: D, h: LALT}
+  - {t: F, h: LCTRL}
+  - {t: G, h: nav}
+  - {t: H, h: '='}
+  - {t: J, h: LCTRL}
+  - {t: K, h: LALT}
+  - {t: L, h: LGUI}
+  - {t: ':', h: ;}
+  - Z
+  - {t: X, h: '`'}
+  - {t: C, h: ''''}
+  - {t: V, h: '"'}
+  - {t: B, h: '#'}
+  - N
+  - {t: M, h: '-'}
+  - {t: ',', h: _}
+  - {t: ., h: +}
+  - {t: /, h: \}
+  - LSHFT
+  - sys
+  - SPACE
+  - BSPC
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '7', h: Sft+ 7}
+  - {t: '8', h: Sft+ 8}
+  - {t: '9', h: Sft+ 9}
+  - ''
+  - {type: held}
+  - LGUI
+  - LALT
+  - LCTRL
+  - ''
+  - {t: '0', h: Sft+ 0}
+  - {t: '1', h: Sft+ 1}
+  - {t: '2', h: Sft+ 2}
+  - {t: '3', h: Sft+ 3}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '4', h: Sft+ 4}
+  - {t: '5', h: Sft+ 5}
+  - {t: '6', h: Sft+ 6}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - {type: held}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sys:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - AGr+ '
+  - ''
+  - DEL
+  - ''
+  - ''
+  - ''
+  - TAB
+  - Sft+ TAB
+  - Sft+ LALT
+  - ''
+  - RALT
+  - ''
+  - CAPS
+  - ''
+  - ble
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RETURN
+  - ESC
+  ble:
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
