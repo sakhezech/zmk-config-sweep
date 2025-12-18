@@ -33,11 +33,11 @@
         base_layer {
             bindings = <
         //╭────────────┬────────────┬────────────┬────────────┬────────────╮   ╭────────────┬────────────┬────────────────┬─────────────┬──────────────╮
-           &kp Q        &ht LBRC W   &ht LBKT E   &ht LPAR R   &ht AT T         &ht TILDE Y  &ht RPAR U   &ht RBKT I       &ht RBRC O    &ht PIPE P
+           &ht EXCL Q   &ht LBRC W   &ht LBKT E   &ht LPAR R   &ht AT T         &ht TILDE Y  &ht RPAR U   &ht RBKT I       &ht RBRC O    &ht PIPE P
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┼─────────────┼──────────────┤
            &lt 1 A      &hm LGUI S   &hm LALT D   &hm LCTRL F  &lt 2 G          &ht EQUAL H  &hm LCTRL J  &hm LALT K       &hm LGUI L    &ht SEMI COLON
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┼─────────────┼──────────────┤
-           &kp Z        &ht GRAVE X  &ht SQT C    &ht DQT V    &ht HASH B       &kp N        &ht MINUS M  &ht UNDER COMMA  &ht PLUS DOT  &ht BSLH FSLH
+           &ht DLLR Z   &ht GRAVE X  &ht SQT C    &ht DQT V    &ht HASH B       &ht CARET N  &ht MINUS M  &ht UNDER COMMA  &ht PLUS DOT  &ht BSLH FSLH
         //╰────────────┴────────────┴────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┴─────────────┴──────────────╯
                                                   &kp LSHFT    &mo 3            &kp SPACE    &kp BSPC
         //                                       ╰────────────┴────────────╯   ╰────────────┴────────────╯
